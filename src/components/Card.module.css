@@ -1,0 +1,56 @@
+.card {
+  margin-bottom: 2px;
+  /* margin-left: 40px; */
+  width: 15rem;
+  background-color: aliceblue;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer; 
+}
+.topbadge {
+  position: absolute; 
+  left: 70%;  
+  border-radius: 17px;
+  background: rgb(193, 45, 45);
+  padding: 0px 2px 0px 2px;
+}
+.topbadge p {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: brown;
+    padding: 6px ;
+}
+.card img {
+  height: 10rem;
+  width: 15rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+.card img:hover {
+  transform: scale(1.2);
+}
+.bottom {
+  padding: 5px;
+}
+.bottom h3 {
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 8px;
+}
+.bottom p {
+  color: rgb(18, 7, 7);
+  font-weight: 700;
+}
+.plus,
+.minus {
+  width: 2rem;
+  height: 2rem;
+}
+.number {
+  margin: 0px 4px 0px 4px;
+  background-color: rgb(94, 33, 94);
+  border-radius: 6px;
+}

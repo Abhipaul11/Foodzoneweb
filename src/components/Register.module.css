@@ -1,0 +1,47 @@
+.registercontainer {
+  padding: 20px;
+  display: block;
+  justify-content: center; 
+  
+}
+.form {  
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.form h2 {
+  background-color: rgba(0, 0, 0, 0); 
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: black;
+}
+.form .box {
+  padding: 18px;  
+  display: flex;
+  flex-direction: column; 
+}
+.form .box input {
+  margin-bottom: 16px;
+  padding: 8px 12px 8px 12px;
+}
+.form .box p {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center; 
+  color: black;
+  font-size: 18px;
+}
+.form .box button {
+  background-color: rgb(241, 64, 64);
+  color: white;
+  transition:  0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+.form .box button:hover {
+  background-color: white;
+  color: black;  
+}
+

@@ -1,0 +1,148 @@
+h2 {
+  text-align: center;
+  background-color: rgb(8, 26, 40);
+  padding: 2px 0px 2px 0px;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.content {
+  padding: 10px;
+
+  width: 30rem;
+  margin-top: 1rem;
+  font-size: large;
+}
+.content h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  background-color: rgba(108, 46, 58, 0.607);
+  border-radius: 8px;
+  color: black;
+}
+.content p {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: large;
+  text-align: center;
+}
+
+.hero img {
+  height: 20rem;
+  width: 25rem;
+  margin: 1rem;
+   
+}
+.hero img:hover{
+  transform: scale(1);
+}
+
+button {
+  padding: 7px 11px 7px 11px;
+  border-radius: 8px;
+  margin-left: 7px;
+}
+button:hover {
+  background-color: rgb(252, 134, 102);
+  cursor: pointer;
+}
+button span {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.part2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  padding: 10px;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.box {
+  background-color: rgb(236, 236, 236);
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  width: 20rem;
+  box-shadow: 5px 5px 5px 7px rgb(145, 147, 148);
+}
+.box p,
+h3 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+.box p {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(54, 54, 12);
+  }
+  50% {
+    color: rgb(60, 60, 193);
+  }
+  75% {
+    color: rgb(2, 2, 11);
+  }
+  100% {
+    colorr: rgb(220, 23, 23);
+  }
+}
+
+/* @media only screen and (max-width: 382px-412px) { 
+    .hero .image img{
+        width:10rem ;
+    }
+    .image{
+        width: 10rem;
+    }
+  }
+  @media only screen and (max-width: 1147px) { 
+    .content{
+        padding-left:3rem ;
+    }
+  }
+  @media only screen and (max-width: 1037px) { 
+    .content{
+        padding-left:0rem ;
+    }
+  }
+  @media only screen and (max-width: 1000px) { 
+    .image{
+        height: 17rem;
+        width: 25rem;
+    }
+  }
+  @media only screen and (max-width: 914px) { 
+    .image{
+        width: 22rem;
+    }
+  }
+  @media only screen and (max-width: 400px-1400px) { 
+    .image{
+        width: 22rem;
+    }
+  }
+  @media only screen and (max-width: 360x) { 
+    .image{
+        width: 22rem;
+    }
+  } */

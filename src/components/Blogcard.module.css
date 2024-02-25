@@ -1,0 +1,39 @@
+.card{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 10rem;
+    background-color: aliceblue;
+    margin: 1rem;
+    transition: transform 0.8s;
+    overflow: hidden;
+    box-shadow:  1px 7px 25px rgb(87, 126, 139);
+}
+.card:hover{
+   cursor: pointer;
+}
+.card img{
+    width: 10rem;
+    border-radius:  8px;
+    transition: transform .2s ease-in-out;
+}
+.card img:hover{
+  transform:scale(1.2);
+}
+ 
+.sticker{
+    background-color: orange;
+     
+    color: white;
+    padding: 8px 8px 8px 8px;
+    text-align: right;
+}
+.card p{
+    margin : 12px 0px 2px 4px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+span{
+    padding-left: 10px;
+     
+    
+}
